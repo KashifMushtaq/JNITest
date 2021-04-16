@@ -29,7 +29,7 @@ EXPORTS
   
 # Sample Method
 
-JNIEXPORT jint JNICALL Java_edu_internet2_middleware_shibboleth_idp_authn_provider_JWrapper_Initialize(JNIEnv * env, jclass cls)
+JNIEXPORT jint JNICALL Java_edu_internet_middleware_JWrapper_Initialize(JNIEnv * env, jclass cls)
   
 # First argument is always pointer to JNIEnv and then Java Class
 
@@ -38,7 +38,7 @@ JNIEnv * env, jclass cls
 
 # Java Native Interface
 
-package edu.internet2.middleware.shibboleth.idp.authn.provider;
+package edu.internet.middleware;
 
 public class JWrapper
 {
