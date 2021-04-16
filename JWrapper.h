@@ -2,7 +2,7 @@
 #include "include/jni.h"
 
 //Java Package Name
-//edu.internet2.middleware.shibboleth.idp.authn.provider
+//edu.internet.middleware
 
 #ifndef _Included_JWrapper
 #define _Included_JWrapper
@@ -10,11 +10,11 @@
 extern "C" {
 #endif
 /*
- * Class:     edu_internet2_middleware_shibboleth_idp_authn_provider_JWrapper
+ * Class:     edu_internet_middleware_JWrapper
  * Method:    Initialize
  * Signature: ()I
  */
-JNIEXPORT jint JNICALL Java_edu_internet2_middleware_shibboleth_idp_authn_provider_JWrapper_Initialize(JNIEnv * env,jclass cls);
+JNIEXPORT jint JNICALL Java_edu_internet_middleware_JWrapper_Initialize(JNIEnv * env,jclass cls);
 
 #ifdef __cplusplus
 }
