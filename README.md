@@ -37,6 +37,7 @@ JNIEnv * env, jclass cls
   
 
 # Java Native Interface
+package edu.internet2.middleware.shibboleth.idp.authn.provider;
 public class JWrapper
 {
 
