@@ -14,13 +14,14 @@ JWrapper.cpp
 LIBRARY      "JWrapperWin"
 
 EXPORTS
-	;For JNI all . in java package changed to _ JCryptoWrapper=class Initialize=public method
-  ;Method name starts with Java_
-  ;package here is edu.internet2.middleware.idp.authn.provider
+	;For JNI all . in java package changed to _
+	; Java Class = JWrapper
+	; Native Method = Initialize=
+  	; Method name starts with Java_
+  	; Java Package = edu.internet2.middleware.idp.authn.provider
+	
 	Java_edu_internet2_middleware_shibboleth_idp_authn_provider_JWrapper_Initialize
-	Java_edu_internet2_middleware_shibboleth_idp_authn_provider_JWrapper_Encrypt
-	Java_edu_internet2_middleware_shibboleth_idp_authn_provider_JWrapper_Decrypt
-	Java_edu_internet2_middleware_shibboleth_idp_authn_provider_JWrapper_Authenticate
+
 	
 	;For Regular C++
 	_Initialize
