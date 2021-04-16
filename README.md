@@ -20,9 +20,9 @@ EXPORTS
 	; Java Class = JWrapper
 	; Native Method = Initialize=
   	; Method name starts with Java_
-  	; Java Package = edu.internet2.middleware.idp.authn.provider
+  	; Java Package = edu.internet.middleware
 	
-	Java_edu_internet2_middleware_shibboleth_idp_authn_provider_JWrapper_Initialize
+	Java_edu_internet_middleware_JWrapper_Initialize
 
 	
 	;For Regular C++
